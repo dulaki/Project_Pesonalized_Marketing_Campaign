@@ -11,6 +11,9 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+// Checks all incoming HTTP requests to validate a valid API key.
+
+
 @Component
 public class ApiKeyFilter extends OncePerRequestFilter {
 

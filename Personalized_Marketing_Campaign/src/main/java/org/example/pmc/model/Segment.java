@@ -3,6 +3,9 @@ package org.example.pmc.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+ // Includes filters like age or location, used to define target groups for campaigns.
+
+
 @Entity
 public class Segment {
 

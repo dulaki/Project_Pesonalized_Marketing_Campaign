@@ -3,6 +3,11 @@ package org.example.pmc.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+
+
+ // Tracks delivery count, open rate, click rate, and calculated ROI.
+
+
 @Entity
 public class Engagement {
 

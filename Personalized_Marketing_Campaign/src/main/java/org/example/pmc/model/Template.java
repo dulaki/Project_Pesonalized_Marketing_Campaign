@@ -3,6 +3,9 @@ package org.example.pmc.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+ //Can be used for either email or SMS, and stores subject/body content.
+
+
 @Entity
 public class Template {
 

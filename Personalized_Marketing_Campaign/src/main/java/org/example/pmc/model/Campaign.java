@@ -3,6 +3,11 @@ package org.example.pmc.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+
+
+//  In order to use the CRUD operations, the template and segment have to be created first
+//  Contains metadata like status, schedule, channel
+
 @Entity
 public class Campaign {
 

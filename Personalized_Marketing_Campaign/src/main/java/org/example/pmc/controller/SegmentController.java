@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// Provides endpoints for creating, retrieving, updating, and deleting Segment entities.
 @RestController
 @RequestMapping("/api/segments")
 public class SegmentController {

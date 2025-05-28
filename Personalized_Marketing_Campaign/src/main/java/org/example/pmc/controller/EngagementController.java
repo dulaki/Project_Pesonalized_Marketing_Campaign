@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// Provides endpoints for creating, retrieving, updating, and deleting Engagement entities.
 @RestController
 @RequestMapping("/api/engagements")
 public class EngagementController {

@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
+ // Provides endpoints for creating, retrieving, updating, and deleting Campaign entities.
+
+
 @RestController
 @RequestMapping("/api/campaigns")
 public class CampaignController {
